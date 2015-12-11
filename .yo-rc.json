@@ -1,0 +1,13 @@
+{
+  "generator-kraken": {
+    "taskModule": "grunt",
+    "description": "wholesale",
+    "author": "aman",
+    "templateModule": "makara",
+    "i18n": false,
+    "componentPackager": "bower",
+    "cssModule": "less",
+    "jsModule": "requirejs",
+    "useJson": null
+  }
+}
