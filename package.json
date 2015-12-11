@@ -1,5 +1,5 @@
 {
-  "name": "",
+  "name": "app",
   "version": "0.1.0",
   "description": "wholesale",
   "author": "aman",
@@ -7,11 +7,10 @@
   "scripts": {
     "test": "grunt test",
     "build": "grunt build",
-    "all": "npm run build && npm run test"
+    "all": "npm run build && npm run test",
+      "start":"node index.js"
   },
-    "engines":{
-        "node":"4.2.3";
-    },
+
   "dependencies": {
     "construx": "^1.0.0",
     "construx-copier": "^1.0.0",
